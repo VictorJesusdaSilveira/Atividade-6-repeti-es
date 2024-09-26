@@ -3,19 +3,19 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero
-		inteiro soma = 0
-		inteiro media
+           inteiro numero
+	   inteiro soma = 0
+	   inteiro media
 
 
           para(inteiro i=0; i < 5; i++){
 
-          escreva("Informe um número:  \n")
-          leia(numero)
+          	escreva("Informe um número:  \n")
+          	leia(numero)
            	
-          soma = soma + numero
-		}
-		escreva("A soma é : " , soma)
+          	soma = soma + numero
+	}
+          escreva("A soma é : " , soma)
 
           media = soma/5
               
