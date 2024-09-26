@@ -3,21 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-	  inteiro A , B , anos
+	  	inteiro A , B , anos
        
-	  A = 80000
-       B = 200000
-       anos = 0
+		A = 80000
+        	B = 200000
+       		anos = 0
 
 
-      enquanto(A != B){
-      A = A + (A * 0.03) 
-      B = B + (B * 0.015) 
+      		enquanto(A != B){
 
-      anos = anos + 1
-      
-	}
-      escreva(" A população do país A irá ultrapassar em ", anos," anos")
+      			A = A + (A * 0.03) 
+      			B = B + (B * 0.015) 
+
+      			anos = anos + 1
+		}
+
+      		escreva(" A população do país A irá ultrapassar em ", anos," anos")
      
      
      }
