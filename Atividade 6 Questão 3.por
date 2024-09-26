@@ -4,25 +4,19 @@ programa
 	funcao inicio()
 	{
 
-         inteiro numero = 0
-         inteiro maior = 0
-	
+        	 inteiro numero = 0
+         	inteiro maior = 0
+
 		para(inteiro i=0; i < 5; i++){
-           escreva("Informe um número: ")
-           leia(numero)
 
-           se(numero > maior){
-           maior = numero	
+                   escreva("Informe um número: ")
+                  leia(numero)
+
+                   se(numero > maior){
+                   maior = numero	
            	
-           }
-
-         
-
-
-           
+        		}
 		}
-
-
 		escreva("O maior número é: ", maior)
 		
 	}
